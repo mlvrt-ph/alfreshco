@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;400;500;700&display=swap');
+
+/*font-family: 'Great Vibes', cursive;*/
+/*font-family: 'Roboto', sans-serif;*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body
+{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    background-color: gray;
+    font-family: 'Roboto', sans-serif; 
+}
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul,
+li
+{
+    list-style: none;
+}
+
+/*header start*/
+
+#header-top
+{
+    background: #21252e;
+    padding: 12px 0;
+    width: 100%;
+}
+
+.container
+{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: space-between;
+}
+
+.col-1
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: left;
+}
+
+.col-2
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: right;
+}
+
+.headet-text
+{
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.headet-text a
+{
+    color: #fff;
+
+}
+
+.headet-text a i
+{
+    color: #fa573a;
+    padding-right: 4px;
+}
+
+/*Header area*/
+
+.navbar
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    padding-top: 15px;
+    background: transparent;
+    margin-top: 65px;
+}
+
+.new-nav
+{
+    background: #fff;
+    padding: 8px 20px;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .new-nav .navbar-Brand
+{
+    color: #292929;
+    font-size: 28px;
+    font-weight: 700;
+    transition: all linear .3s;
+
+}
+
+.navbar .new-nav .navbar-Brand:hover
+{
+    color: #131313;
+}
+
+
+.navbar .new-nav .navbar-Brand span
+{
+    color: #fa573a;
+}
+
+.menu-item
+{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    padding-right: 25px;
+    margin-left: auto;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbar .menu-item .nav-link
+{
+    color:  #131313;
+    font-size: 16px;
+    transition: all linear .3s;
+    position: relative;
+    margin: 9px;
+    display: block;
+    padding: 0.5rem 1rem;
+
+}
+
+.navbar .menu-item .nav-link::after
+{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background: #fa573a;
+    width: 0;
+    height: 2px;
+    transition: all linear .3s;
+}
+
+
+.navbar .menu-item .nav-link:hover
+{
+    color: #fa573a;
+}
+
+
+.navbar .menu-item .nav-link:hover::after,
+.navbar .menu-item .nav-link:focus::after
+{
+    width: 50px;
+}
+
+.navbar .menu-item .nav-link.active
+{
+    color: #fa573a;
+}
+
+.slide-banner
+{
+    width: 100%;
+    height: calc(100vh - 48px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.banner-content
+{
+    height: 100%;
+
+}
+
+.banner-content .container
+{
+    height: 100%;
+}
+
+.banner-text
+{
+    position: relative;
+    top: 200px;
+    z-index: 2;
+}
+
+.banner-text h2
+{
+    font-size: 43px;
+    color: #fff;
+    margin-bottom: px;
+    font-weight: 400;
+    font-family: Impact;
+}
+
+.banner-text h4
+{
+    font-size: 27px;
+    color: #fa573a;
+    margin-top: 0;
+    padding-bottom: 6px;
+    padding-top: 1px;
+    font-weight: 400;   
+    text-transform: uppercase;
+	font-family: Impact;
+}
+
+.banner-text p
+{
+    font-size: 16px;
+    color:#fff;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 3px;
+    font-weight: 400;   
+}
+
+.ban-btn
+{
+    padding-top: 15px;
+}
+
+.ban-btn a
+{
+    border: 1px solid #fa573a;
+    padding: 14px 20px;
+    color: #fff;
+    background: #fa573a;
+    transition: all linear .3s;
+    font-weight: 700;
+}
+
+.ban-btn a i
+{
+    font-size: 17px;
+    padding-left: 4px;
+}
+
+.ban-btn a:hover
+{
+    background: none;
+    color: #fa573a;
+}
+
+.social-icon
+{
+    padding-top: 25px;
+}
+
+.social-icon i
+{
+    font-size: 19px;
+    color: #fff;
+    padding-right: 19px;
+    transition: all linear .3s;
+}
+
+.social-icon i:hover
+{
+    color: #fa573a;
+}
+
+.img2{
+	position: absolute;
+    top: 200px;
+    right: 300px;
+}
