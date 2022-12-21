@@ -266,7 +266,7 @@ li
 .ban-btn a
 {
     border: 1px solid #fa573a;
-    padding: 14px 20px;
+    padding: 20px 15px;
     color: #fff;
     background: #fa573a;
     transition: all linear .3s;
@@ -370,15 +370,15 @@ li
 {
     padding-top: 15px;
 	position:absolute;
-	top:200px;
-	left:125px;
+	top:212.5px;
+	left:140px;
 	border-radius: 2px;
 }
 
 .menu-btn1 a
 {
     border: 1px solid #fa573a;
-    padding: 14px 20px;
+    padding:5px 5px;
     color: #fff;
     background: #fa573a;
     transition: all linear .3s;
@@ -415,15 +415,15 @@ li
 {
     padding-top: 15px;
 	position:absolute;
-	top:200px;
-	left:510px;
+	top:212.5px;
+	left:525px;
 	border-radius: 2px;
 }
 
 .menu-btn2 a
 {
     border: 1px solid #fa573a;
-    padding: 14px 20px;
+    padding: 5px 5px;
     color: #fff;
     background: #fa573a;
     transition: all linear .3s;
@@ -460,15 +460,15 @@ li
 {
     padding-top: 15px;
 	position:absolute;
-	top:200px;
-	left:905px;
+	top:212.5px;
+	left:920px;
 	border-radius: 2px;
 }
 
 .menu-btn3 a
 {
     border: 1px solid #fa573a;
-    padding: 14px 20px;
+    padding: 5px 5px;
     color: #fff;
     background: #fa573a;
     transition: all linear .3s;
@@ -505,15 +505,15 @@ li
 {
     padding-top: 15px;
 	position:absolute;
-	top:460px;
-	left:125px;
+	top:472.5px;
+	left:140px;
 	border-radius: 2px;
 }
 
 .menu-btn4 a
 {
     border: 1px solid #fa573a;
-    padding: 14px 20px;
+    padding: 5px 5px;
     color: #fff;
     background: #fa573a;
     transition: all linear .3s;
@@ -535,7 +535,7 @@ li
 .sld{
     position: absolute;
     top: 350px;
-    left: 505px;
+    left: 515px;
 	font-size: 40px;
     color:#fff;
     margin-top: 0;
@@ -550,15 +550,15 @@ li
 {
     padding-top: 15px;
 	position:absolute;
-	top:460px;
-	left:510px;
+	top:472.5px;
+	left:525px;
 	border-radius: 2px;
 }
 
 .menu-btn5 a
 {
     border: 1px solid #fa573a;
-    padding: 14px 20px;
+    padding: 5px 5px;
     color: #fff;
     background: #fa573a;
     transition: all linear .3s;
@@ -595,15 +595,15 @@ li
 {
     padding-top: 15px;
 	position:absolute;
-	top:460px;
-	left:905px;
+	top:472.5px;
+	left:920px;
 	border-radius: 2px;
 }
 
 .menu-btn6 a
 {
     border: 1px solid #fa573a;
-    padding: 14px 20px;
+    padding: 5px 5px;
     color: #fff;
     background: #fa573a;
     transition: all linear .3s;
@@ -627,14 +627,14 @@ li
     padding-top: 15px;
 	position:absolute;
 	top:600px;
-	left:500px;
+	left:515px;
 	border-radius: 2px;
 }
 
 .menu-btn7 a
 {
     border: 1px solid #fa573a;
-    padding: 14px 20px;
+    padding: 15px 10px;
     color: #fff;
     background: #fa573a;
     transition: all linear .3s;
@@ -723,5 +723,84 @@ li
 	top: 260px;
     left: 759px;
 }
+
+.s1{
+	height:200px;
+	width: 350px;
+	border-radius: 25px;
+	position:absolute;	
+	left:12.3px;
+}
+
+
+.s1text{
+	position:absolute;
+	top:175px;
+	left:58px;
+	font-size: 20px;
+    color:white;
+    font-weight: 400; 
+	font-family:Impact;
+	text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.s2text{
+	position:absolute;
+	top:175px;
+	left:105px;
+	font-size: 20px;
+    color:white;
+    font-weight: 400; 
+	font-family:Impact;
+	text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.s3text{
+	position:absolute;
+	top:175px;
+	left:55px;
+	font-size: 20px;
+    color:white;
+    font-weight: 400; 
+	font-family:Impact;
+	text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.s4text{
+	position:absolute;
+	top:175px;
+	left:112.5px;
+	font-size: 20px;
+    color:white;
+    font-weight: 400; 
+	font-family:Impact;
+	text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.s5text{
+	position:absolute;
+	top:175px;
+	left:75px;
+	font-size: 20px;
+    color:white;
+    font-weight: 400; 
+	font-family:Impact;
+	text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.s6text{
+	position:absolute;
+	top:175px;
+	left:95px;
+	font-size: 20px;
+    color:white;
+    font-weight: 400; 
+	font-family:Impact;
+	text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+
+
+
 
 
